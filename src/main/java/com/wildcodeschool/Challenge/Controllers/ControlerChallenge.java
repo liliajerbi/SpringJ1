@@ -16,7 +16,7 @@ import java.util.List;
 public class ControlerChallenge {
     private final static String DB_URL = "jdbc:mysql://localhost:3306/wild_db_quest?serverTimezone=GMT";
     private final static String DB_USER = "root";
-    private final static String DB_PASSWORD = "Moncefdalila123";
+    private final static String DB_PASSWORD = "123";
 
     @GetMapping("api/schools")
     List<School> getSchools(@RequestParam(defaultValue = "%") String country) {
